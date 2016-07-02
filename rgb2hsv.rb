@@ -1,5 +1,3 @@
-require 'pry'
-
 class Color
   attr_accessor :name, :code
 
