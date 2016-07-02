@@ -1,4 +1,4 @@
-require 'RMagick'
+require 'rmagick'
 require './rgb2hsv'
 
 class RmagickCompileColor
