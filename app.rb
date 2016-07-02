@@ -3,6 +3,10 @@ require 'sinatra'
 require 'json'
 require './compile_color'
 
+get '/ping' do
+  'pong'
+end
+
 post '/color_info', provides: :json do
   body = request.body.read
 
